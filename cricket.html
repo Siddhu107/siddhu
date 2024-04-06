@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cricket Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#scorecard">Scorecard</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Cricket Hub</h2>
+        <p>Get all the latest cricket news, match updates, player stats, and more!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Cricket Hub is your one-stop destination for all things cricket. Whether you're a fan of international cricket, domestic leagues, or just love the game, we've got you covered.</p>
+    </section>
+
+    <section id="teams">
+        <h2>Teams</h2>
+        <div class="team">
+            <img src="team1.png" alt="Chennai Super Kings">
+            <h3>Chennai Super Kings</h3>
+            <p>Chennai Super Kings is known for its strong batting lineup and formidable bowling attack.</p>
+        </div>
+        <div class="team">
+            <img src="team2.png" alt="Mumbai Indians">
+            <h3>Mumbai Indians</h3>
+            <p>Mumbai Indians is a well-balanced side with a mix of experienced players and talented youngsters.</p>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <h2>Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Match</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>April 10, 2024</td>
+                    <td>CSK vs MI</td>
+                    <td>Wankhede</td>
+                </tr>
+                <tr>
+                    <td>April 15, 2024</td>
+                    <td>MI vs RCB</td>
+                    <td>MA Chidambaram</td>
+                </tr>
+                <!-- Add more rows for other matches -->
+            </tbody>
+        </table>
+   </section>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: ghostwhite;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color:lightgray;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .team-heading {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+         </style>
+<body>
+    <section id="scorecard">
+    <h2>Scorecard</h2>
+    <div class="container">
+        <h1>Cricket Scorecard</h1>
+        <div class="team-heading">Chennai Super Kings   210/2(20.0)</div>
+         <table>
+            <thead>
+                <tr>
+                    <th>Batsman</th>
+                    <th>Runs</th>
+                    <th>Balls</th>
+                    <th>4s</th>
+                    <th>6s</th>
+                    <th>SR</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ruturaj Gaikwad(not out)</td>
+                    <td>80*</td>
+                    <td>40</td>
+                    <td>8</td>
+                    <td>6</td>
+                    <td>200.00</td>
+                </tr>
+                <tr>
+                    <td>Rachin Ravindr(c Surya b Bumrha) </td>
+                    <td>30</td>
+                    <td>20</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>150.00</td>
+                </tr>
+                <tr>
+                    <td>Ajinke Rahane(lbw P Chawla)</td>
+                    <td>31</td>
+                    <td>24</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>129.16</td>
+                </tr>
+                <tr>
+                    <td>Shivam Dube(not out)</td>
+                    <td>50*</td>
+                    <td>20</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>250.00</td>
+                </tr>
+                <!-- Add more rows for other players -->
+            </tbody>
+        </table>
+        <div class="team-heading">Mumbai Indians   170/7(20.0)</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Batsman</th>
+                    <th>Runs</th>
+                    <th>Balls</th>
+                    <th>4s</th>
+                    <th>6s</th>
+                    <th>SR</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rohit Sharma(b D Chahar)</td>
+                    <td>40</td>
+                    <td>19</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>210.53</td>
+                </tr>
+                <tr>
+                    <td>Ishan Kishan(lbw R Jadeja)</td>
+                    <td>20</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>133.33</td>
+                </tr>
+                <tr>
+                    <td>Tilak Varma(c MS Dhoni b M Pathirana)</td>
+                    <td>30</td>
+                    <td>20</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>150.00</td>
+                </tr>
+                <tr>
+                    <td>S.Yadav(b M Pathirana)</td>
+                    <td>60</td>
+                    <td>33</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>181.82</td>
+                </tr>
+                <!-- Add more rows for other players -->
+            </tbody>
+        </table>
+    </div>
+    </section>
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: sidjadhav@gmail.com</p>
+        <p>Phone: 123-456-7890</p>
+    </footer>
+</body>
+</html>
